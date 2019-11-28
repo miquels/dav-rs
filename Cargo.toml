@@ -1,0 +1,25 @@
+[package]
+name = "dav"
+
+# When releasing to crates.io:
+# - Update html_root_url in src/lib.rs
+# - Update CHANGELOG.md (if present)
+# - Run ./generate-readme
+# - Create git tag v0.x.y
+version = "0.1.0-alpha.1"
+
+readme = "README.md"
+description = "DAV placeholder crate"
+repository = "https://github.com/miquels/dav-rs"
+homepage = "https://github.com/miquels/dav-rs"
+authors = ["Miquel van Smoorenburg <mike@langeraar.net>"]
+edition = "2018"
+license = "Apache-2.0"
+keywords = ["dav", "webdav"]
+categories = ["web-programming"]
+
+[lib]
+name = "dav"
+path = "src/lib.rs"
+
+[dependencies]
